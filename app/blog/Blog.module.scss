@@ -1,0 +1,23 @@
+.list {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0 50px;
+}
+
+.post {
+  list-style-type: none;
+
+  & > a {
+    font-size: 20px;
+    color: rgba(lightblue, .5);
+    padding: 5px 0;
+    display: inline-block;
+
+    transition: color .3s ease, transform .3s ease;
+
+    &:hover {
+      color: white;
+      transform: scale(1.03);
+    }
+  }
+}
